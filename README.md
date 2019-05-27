@@ -2,8 +2,8 @@
 # Team Serberus 
 Code Camp NSBM - 2018 is web hackathon for NSBM Green University Students.
 This reopository created to share startup,warmup activities of the hakathon.
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![GitHub Logo](logo.jpg)
+  ![Code](1.jpg)
 
 
                                
