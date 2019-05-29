@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Form</title>
+
+<style>
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+	
+input[type=password], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	}
+input[type=submit] {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #ea0909;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #ea0909;
+}
+table {
+    border-radius: 5px;
+    background-color: #e8dec2;
+    padding: 20px;
+}
+</style>
+	
+
+</head>
+
+<body>
+<form action="gg.php" method="POST" name="logindt" onSubmit="validatef()" id="hello">
+<center>
+
+<table>
+<tr>
+<td>ID :</td>
+<td><input type = "text" name ="id" style = "width :100%;" ></td>
+</tr>
+
+<tr>
+<td>Title :</td>
+<td><input type = "text" name ="title" style = "width :100%;" ></td>
+</tr>
+
+<tr>
+<td>Img :</td>
+<td><input type = "file" name ="img" style = "width :100%;" ></td>
+</tr>
+
+<tr>
+<td>Info :</td>
+<td><input type = "text" name ="info" style = "width :100%;" ></td>
+</tr>
+
+<tr>
+<td>Date & Time :</td>
+<td><input type = "Date" name ="date" style = "width :100%;" ></td>
+</tr>
+
+<tr>
+<td>Register name :</td>
+<td><input type = "text" name ="reg" style = "width :100%;" ></td>
+</tr>
+
+
+<tr>
+<td> <input type="reset" value="Reset"></td>
+<td align= "right" > <input type="Submit" value="Submit" ></td>
+</tr>
+</table>
+</form>
+
+
+</body>
+</html>
